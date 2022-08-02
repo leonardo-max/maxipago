@@ -1,0 +1,20 @@
+{
+  "name": "leonardo-max/maxipago",
+  "type": "library",
+  "description": "maxiPago! Smart Payments - PHP library for our payment gateway",
+  "keywords": ["maxipago", "php", "payments", "lib"],
+  "homepage": "http://www.maxipago.com",
+  "require": {},
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Leonardo Max",
+      "role": "Developer"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "leonardo-max\\Maxipago\\" : "src"
+    }
+  }
+}
